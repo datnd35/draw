@@ -1,51 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
-  <diagram name="Page-1" id="3ps0GCSN8z2ICQBHhSA2">
-    <mxGraphModel dx="1804" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Page-1" id="TP8kDBqb7B7feRpS7tDp">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-23" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry y="40" width="1150" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-3" value="website owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="gp_2bAN9HWUbsgBTmTwP-23">
-          <mxGeometry width="60" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-5" value="&lt;strong&gt;Truy cập Facebook for Developers&lt;/strong&gt;:&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;background-color: initial;&quot; href=&quot;https://developers.facebook.com&quot; target=&quot;_new&quot; rel=&quot;noopener&quot;&gt;https://developers.facebook.com&lt;/a&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gp_2bAN9HWUbsgBTmTwP-23">
-          <mxGeometry x="120" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-13" value="&lt;strong&gt;Tạo một ứng dụng mới&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;Vào &lt;strong&gt;My Apps&lt;/strong&gt; → &lt;strong&gt;Create App&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gp_2bAN9HWUbsgBTmTwP-23">
-          <mxGeometry x="340" width="210" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-14" value="&lt;strong&gt;Cấu hình OAuth&lt;/strong&gt;:&lt;ul&gt;&lt;li&gt;Chọn &lt;strong&gt;Facebook Login&lt;/strong&gt; làm sản phẩm.&lt;/li&gt;&lt;li&gt;Trong phần &lt;strong&gt;Settings&lt;/strong&gt;, cấu hình Redirect URI (ví dụ: &lt;code&gt;https://yourwebsite.com/callback&lt;/code&gt;)&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gp_2bAN9HWUbsgBTmTwP-23">
-          <mxGeometry x="580" width="330" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-15" value="&lt;strong&gt;App ID&lt;/strong&gt; (Client ID)&amp;nbsp;&lt;div&gt;&lt;strong&gt;App Secret&lt;/strong&gt; (Client Secret)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="gp_2bAN9HWUbsgBTmTwP-23">
-          <mxGeometry x="970" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gp_2bAN9HWUbsgBTmTwP-23" source="gp_2bAN9HWUbsgBTmTwP-3" target="gp_2bAN9HWUbsgBTmTwP-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100" y="270" as="sourcePoint" />
-            <mxPoint x="150" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.995;exitY=0.404;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="gp_2bAN9HWUbsgBTmTwP-23" source="gp_2bAN9HWUbsgBTmTwP-5" target="gp_2bAN9HWUbsgBTmTwP-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="90" as="sourcePoint" />
-            <mxPoint x="360" y="40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gp_2bAN9HWUbsgBTmTwP-23" target="gp_2bAN9HWUbsgBTmTwP-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="60" as="sourcePoint" />
-            <mxPoint x="600" y="10" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gp_2bAN9HWUbsgBTmTwP-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="gp_2bAN9HWUbsgBTmTwP-23" source="gp_2bAN9HWUbsgBTmTwP-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="910" y="110" as="sourcePoint" />
-            <mxPoint x="970" y="60" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
